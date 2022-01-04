@@ -1,0 +1,35 @@
+html {
+  font-family: Inter, -apple-system, BlinkMacSystemFont, segoe ui, Roboto,
+    Helvetica, Arial, sans-serif;
+}
+
+.all_fields {
+  color: black;
+  font-size: 1.25em;
+  font-weight: 750;
+}
+
+.area_group_selector,
+input {
+  cursor: pointer;
+}
+
+a:active,
+a:hover {
+  outline: 0;
+}
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+
+input::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+input[type="checkbox"] {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0;
+}
