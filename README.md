@@ -1,4 +1,4 @@
-Start the server
+# Start the server
 
    You can start the server on its own with the command:
 
