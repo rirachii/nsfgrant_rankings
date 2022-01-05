@@ -1,3 +1,7 @@
+# nsf_grant_ranking
+CLIENT: https://nsfgrants.netlify.app/
+API: https://research-institution-grants.herokuapp.com/
+
 Start the server
 
    You can start the server on its own with the command:
