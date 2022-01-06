@@ -7,6 +7,10 @@ h1 {
   font-weight: bolder;
 }
 
+.title {
+  margin-bottom: -1rem;
+}
+
 table {
   float: right;
   border-spacing: 0;
@@ -57,9 +61,20 @@ label {
   align-items: center;
 }
 
+.card-comp {
+  font-weight: 600;
+}
+
 .filters {
-  margin-left: 25px;
+  margin-left: 23px;
   margin-bottom: -25px;
+}
+
+.filter-text {
+  margin-top: 10px;
+  margin-bottom: -5px;
+  font-weight: 600;
+
 }
 
 .select_areas {

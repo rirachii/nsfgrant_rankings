@@ -8,8 +8,15 @@ td {
   margin: 0;
   padding: 0.5rem;
   border-bottom: 1px solid black;
+  text-align: center;
+}
+
+tr td:nth-child(3) { /* Not 0 based */
   text-align: left;
 }
+tr td:nth-child(2) {
+  text-align: left;
+}​
 
 th {
   border-top: 1px solid black;

@@ -30,20 +30,6 @@ export default function Table({ columns, data }) {
         usePagination
     );
 
-    const sub_columns = React.useMemo(
-    () => [
-      {
-        Header: "Name",
-        accessor: "Rank"
-      },
-      {
-        Header: "Total",
-        accessor: "Total"
-      },
-    ],
-    []
-  );
-
   return ( 
   <>
       {/* <button className="page-button" onClick={() => nextPage()} disabled={!canNextPage} >
