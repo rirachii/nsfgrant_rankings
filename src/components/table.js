@@ -1,7 +1,7 @@
 import { useTable, useExpanded, usePagination } from "react-table";
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import "./table.css"; 
+import "./Table.css"; 
 
 export default function Table({ columns, data }) {
   const {
@@ -18,7 +18,6 @@ export default function Table({ columns, data }) {
     nextPage,
     previousPage,
     setPageSize,
-    visibleColumns,
     state: { pageIndex, pageSize },
     } = useTable(
         {

@@ -31,9 +31,9 @@ db.close((err) => {
 });
 
 app.get('/', cors(), (_, res) => {
-    res.send("Research Institution Grants API from 2000-2022. To view data, visit: https://research-institution-grants.herokuapp.com/api/2000-2022");
+    res.status(200).send("Research Institution Grants API from 2000-2022. To view data, visit: https://research-institution-grants.herokuapp.com/api/2000-2022");
 });
 
 app.get('/api/2000-2022', cors(), (_, res) => {
-    res.json(all);
+    res.status(200).json(all);
 });

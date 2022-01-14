@@ -1,6 +1,6 @@
 table {
   border-spacing: 0;
-  margin-top: -20px;
+  /* margin-top: -20px; */
 }
 
 th,
@@ -44,6 +44,7 @@ th {
 }
 
 .pagination {
-  margin-top: -60px;
+  margin-top: -40px;
+  margin-bottom: -9px;
   float: right;
 }

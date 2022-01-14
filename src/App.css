@@ -77,6 +77,10 @@ label {
 
 }
 
+.filter-button {
+  width: 100%
+}
+
 .select_areas {
   margin-left: -30px;
   font-weight: 650;
