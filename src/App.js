@@ -1,7 +1,7 @@
 import "./App.css"
 import "bootstrap/dist/css/bootstrap.min.css";
 import React, { useState, useEffect } from "react";
-import Table from "./components/Table";
+import Table from "./components/table";
 import ToggleSection from "./components/ToggleSection"
 import { Button, CardBody } from 'reactstrap';
 import {sub_areas, areas} from "./area_info"
