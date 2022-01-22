@@ -9,9 +9,32 @@ h1 {
   font-size: 2em;
 }
 
-.page_setup {
-  padding-left: 5%;
-  padding-right: 5%;
+/* @media (max-width: 1005px) {
+  .page_setup {
+    margin: 0;
+  }
+} */
+
+@media (max-width: 1150px) {
+  .page_setup {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+}
+
+@media (min-width: 1150px) {
+  .page_setup {
+    margin-left: 10%;
+    margin-right: 10%;
+
+  }
+}
+
+@media (min-width: 1500px) {
+  .page_setup {
+    margin-left: 15%;
+    margin-right: 15%;
+  }
 }
 
 .all_fields {

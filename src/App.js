@@ -235,36 +235,43 @@ const filterSetting = (
     <div className="title">
       <h1>Research Grants Rankings</h1>
     </div>
+
     <ToggleSection section='Toggle About Section' contents={aboutSection} />
     <ToggleSection section='Toggle Filter Settings' contents={filterSetting} />
-    <p className="select_text">Select Areas of Intrest:</p>
-    <ul className="select_areas">
-      {sub_areas.map((smth, index) => {
-        return (
-          <li className="list_areas" key={index}>
-              <div className="left-section">
-                <input
-                  type="checkbox"
-                  id={`custom-checkbox-${index}`}
-                  name={smth}
-                  value={smth}
-                  checked={checkedState[index]}
-                  onChange={() => handleOnChange(index)}
-                />
-                <label htmlFor={`custom-checkbox-${index}`}>
-                  {areas[smth]}
-                </label>
-            </div>
-          </li>
-        );
-      }
-      )}
-      </ul>
-    <div className="rank_table">
-    {loading ? (<div className="loading_ani"><Spinner animation="border" /></div>) : <Table columns={columns} data={data_json} />}
-    
+
+    <div className="flexbox-container">
+      <div className="selection">
+        <p className="select_text">Select Areas of Intrest:</p>
+        <ul className="select_areas">
+          {sub_areas.map((smth, index) => {
+            return (
+              <li className="list_areas" key={index}>
+                  <div className="left-section">
+                    <input
+                      type="checkbox"
+                      id={`custom-checkbox-${index}`}
+                      name={smth}
+                      value={smth}
+                      checked={checkedState[index]}
+                      onChange={() => handleOnChange(index)}
+                    />
+                    <label htmlFor={`custom-checkbox-${index}`}>
+                      {areas[smth]}
+                    </label>
+                </div>
+              </li>
+            );
+          }
+          )}
+          </ul>
+      </div>
+
+      <div className="rtable">
+        {loading ? (<div className="loading_ani"><Spinner animation="border" /></div>) : <Table columns={columns} data={data_json} />}
+      </div>
     </div>
-    </div>
+
+  </div>
   );
 }
 

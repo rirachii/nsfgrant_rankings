@@ -2,7 +2,7 @@ import React from "react";
 import { Collapse, Button, Card } from 'reactstrap';
 
 
-class ToggleSection extends React.Component {
+export default class ToggleSection extends React.Component {
     constructor(props){
         super(props);
         this.toggle = this.toggle.bind(this)
@@ -31,5 +31,3 @@ class ToggleSection extends React.Component {
     }
 
 }
-
-export class ToggleSection{}

@@ -1,7 +1,7 @@
 import { useTable, useExpanded, usePagination } from "react-table";
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import "./Table.css"; 
+import "./table.css"; 
 
 export default function Table({ columns, data }) {
   const {
@@ -37,6 +37,7 @@ export default function Table({ columns, data }) {
       <button className="page-button" onClick={() => previousPage()} disabled={!canPreviousPage}>
           {'<'}
       </button> */}
+      
       <ul className="pagination">
         <li className="page-item" onClick={() => gotoPage(0)} disabled={!canPreviousPage}>
             <a className="page-link">First</a>

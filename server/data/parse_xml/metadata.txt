@@ -27,7 +27,7 @@ Division Of Administrative Services: 'DAS', none
 Office Of Information & Resource Mgmt: 'IRM', none
 Division Of Human Resource Management: 'HRM', not schools
 General Counsel: 'OGC', none
-Office of Integrative Activities: 'OIA', about 39 not much
+Office of Integrative Activities: 'OIA', about 39 grants in total, not much
 Office Of Inspector General: 'OIG', none
 Office Of Diversity and Inclusion: 'ODI', none
 Office of Budget, Finance, & Award Management: 'BFA', not much
