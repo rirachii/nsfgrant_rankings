@@ -1,6 +1,6 @@
 NSF Grants Rankings
 ==
-CLIENT: https://nsfgrants.netlify.app/
+CLIENT: https://nsfgrants.netlify.app
 API: https://research-institution-grants.herokuapp.com/
 
 About
